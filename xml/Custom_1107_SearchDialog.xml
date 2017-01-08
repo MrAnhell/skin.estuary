@@ -18,7 +18,7 @@
 				<include>ButtonMenuList</include>
 				<content>
 					<item>
-						<label>$LOCALIZE[31113]</label>
+						<label>[COLOR yellow]EXODUS[/COLOR]: Movies/Series</label>
 						<onclick>Dialog.Close(all)</onclick>
 						<onclick condition="System.hasAddon(script.globalsearch)">RunScript(script.globalsearch)</onclick>
 						<onclick condition="!System.hasAddon(script.globalsearch)">InstallAddon(script.globalsearch)</onclick>
